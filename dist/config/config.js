@@ -1,6 +1,6 @@
 var endpoints = {
   transferenceApi: {
-    url: process.env.REACT_APP_TRANSFERENCE_API_URL || 'https://vn225hz994.execute-api.us-east-1.amazonaws.com/transference/',
+    url: process.env.REACT_APP_TRANSFERENCE_API_URL || 'http://localhost:3000/transference/',
     version: 'v1',
     apiKey: ''
   }

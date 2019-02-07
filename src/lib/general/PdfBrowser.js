@@ -3,8 +3,8 @@ import config from '../config/config';
 
 export default class PdfBrowser extends Component {
 
-  test = async() => {
-    await fetch(config.endpoints.transferenceApi.url);
+  test = () => {
+    console.log('test');
   }
 
   render() {
